@@ -1,5 +1,5 @@
 # Gists
 
-[Urbanise TimeSheet Helper](javascript:(function() {  alert(1); })())
+[Urbanise TimeSheet Helper](dfdfdf)
 
 [rollup.js](http://rollupjs.org/)
