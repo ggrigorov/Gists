@@ -1,3 +1,7 @@
 <a href="javascript:(function() {
-         alert(1); 
+         document.querySelector('.history-modal.js-update-BhrTable').click();
+         setTimeout(function() {
+                  var date = new Date();
+                  document.querySelector('.date-field').value = date.getDate() + '/' + (1 + date.getMonth()) + '/' + date.getFullYear();
+         }, 100);
 })()">drag</a>
