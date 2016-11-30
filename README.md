@@ -1,5 +1,3 @@
 # Gists
 
-**[Urbanise TimeSheet Helper](javascript:(function() {
-  alert(1);
-})())**
+[Urbanise TimeSheet Helper](javascript:(function() {  alert(1); })())
