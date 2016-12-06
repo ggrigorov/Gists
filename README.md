@@ -12,7 +12,7 @@
 * Click on the new bookmarklet to make a new entry
 
 (1) Make the following changes in TimeSheetFixer:
-- Replace &e=118 with &e=[your id]
+- Replace **&e=118** with **&e=[your id]**
 - Change the projectId and activityId variables. Here are the existing projects and activities
 
 Project | Code
