@@ -10,3 +10,5 @@
  * (Location || URL): The code from TimeSheetFixer.js
 * Open TimeSheet page on BambooHR
 * Click on the new bookmarklet to make a new entry
+
+If you want to enter hours for different project or activity, change the projectId and activityId variables. 
