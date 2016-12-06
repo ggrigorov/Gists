@@ -32,14 +32,14 @@
 
                 var today = new Date();
                 var dayParam = today.getDate() + '%2F' + (today.getMonth() + 1) + '%2F' + today.getFullYear();
-                var projectId = 18436;
-                var activityId = 18428;
+                var projectId = 18436; // Get your value from the README.
+                var activityId = 18428; // Get your value from the README.
                 var token = CSRF_TOKEN;
 
                 params.data = 'custom-50=' + dayParam + '&custom-53=' + projectId + '&custom-51=' + activityId + '&custom-64=&custom-52=8&CSRFToken=' + token;
 
                 params.onError = function(error) {
-                    console.error(error);
+                    alert(error);
                 };
 
                 params.onSuccess = function(s) {
