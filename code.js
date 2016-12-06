@@ -39,7 +39,7 @@
                 params.data = 'custom-50=' + dayParam + '&custom-53=' + projectId + '&custom-51=' + activityId + '&custom-64=&custom-52=8&CSRFToken=' + token;
 
                 params.onError = function(error) {
-                    console.error(error);
+                    alert(error);
                 };
 
                 params.onSuccess = function(s) {
