@@ -7,11 +7,13 @@
  * Right click on the bookmark bar
  * Firefox: "New Bookmark..."; Chrome: "Add Page"
  * Name: "TimeSheetFixer" (or whatever you want)
- * (Location || URL): The code from TimeSheetFixer.js
+ * (Location || URL): The code from TimeSheetFixer.js (1)
 * Open TimeSheet page on BambooHR
 * Click on the new bookmarklet to make a new entry
 
-If you want to enter hours for different project or activity, change the projectId and activityId variables. Here are the existing projects and activities
+(1) Make the following changes in TimeSheetFixer:
+- Replace &e=118 with &e=[your id]
+- Change the projectId and activityId variables. Here are the existing projects and activities
 
 Project | Code
 ------------ | -------------
